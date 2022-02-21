@@ -19,12 +19,12 @@ main {
   align-content: flex-end;
 }
 
-.price-cards {
+.price-card {
   width: 380px;
   margin: 60px 9px;
   background-color: #334247;
 }
-.price-cards__titel {
+.price-card__title {
   width: 176px;
   height: 64px;
   margin: 36px 102px;
@@ -112,7 +112,7 @@ img {
 .orange-button {
   background: #ec632a;
 }
-.price-cards__discount {
+.price-card__discount {
   position: absolute;
   width: 147px;
   height: 147px;
@@ -125,7 +125,7 @@ img {
   line-height: 17px;
   margin: -110px 0 0 205px;
 }
-.price-cards__discount::after {
+.price-card__discount::after {
   content: "POPULAR";
   position: absolute;
   top: 126px;

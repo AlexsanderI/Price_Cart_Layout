@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #141b1c;
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #fff;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  background: #141b1c;
+  justify-content: center;
+  align-content: flex-end;
+}
+
+.price-cards {
+  width: 380px;
+  /* height: 770px; */
+  margin: 115px 9px;
+  background-color: #334247;
+}
+.price-cards__titel {
+  width: 176px;
+  height: 64px;
+  margin: 36px 102px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+h1 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  text-align: center;
+}
+
+.price-card__price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+  min-height: 105px;
+  margin-bottom: 40px;
+}
+.green {
+  background: #5bb189;
+}
+.blue {
+  background: #3a6ba5;
+}
+.red {
+  background: #ec632a;
+}
+
+.price-card__description {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  padding: 0 26px;
+  margin-bottom: 40px;
+}
+
+.price-card__options-list {
+  list-style-type: none;
+}
+
+.price-card__options__item {
+  padding: 21px 0;
+  height: 50px;
+  width: 380px;
+}
+
+img {
+  /* height: 15px;
+  width: 13px; */
+  margin: 0 22px;
+  /* padding: 0px 22px; */
+}
+
+.price-card__options__item:nth-child(2n-1) {
+  background-color: #2a3438;
+}
+
+.order-button {
+  width: 155px;
+  height: 50px;
+  margin: 39px 112px;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+}
+
+.green-button {
+  background: #5bb189;
+}
+.blue-button {
+  background: #3a6ba5;
+}
+.orange-button {
+  background: #ec632a;
+}
+.discount {
+  position: absolute;
+  top: 42px;
+  left: 673px;
+  width: 147px;
+  height: 147px;
+  border-bottom: 25px solid #dc3f45;
+  transform: rotate(45deg);
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+}
+.discount::after {
+  content: "POPULAR";
+  position: absolute;
+  top: 126px;
+  left: 14px;
+}

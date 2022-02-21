@@ -74,7 +74,7 @@ h1 {
 }
 
 .price-card__options__item {
-  padding: 21px 0;
+  padding: 16px 0;
   height: 50px;
   width: 380px;
 }
@@ -123,7 +123,7 @@ img {
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
-  margin: -110px 0 0 205px;
+  margin: -109px 0 0 205px;
 }
 .price-card__discount::after {
   content: "POPULAR";
